@@ -1,0 +1,25 @@
+{
+  "name": "solana-booster-bot",
+  "version": "1.0.0",
+  "description": "Advanced Telegram Solana Booster Bot",
+  "main": "advancedBot.js",
+  "scripts": {
+    "start": "node advancedBot.js",
+    "dev": "nodemon advancedBot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.0",
+    "dotenv": "^16.0.3",
+    "bs58": "^5.0.0",
+    "@solana/web3.js": "^1.73.2",
+    "solana-swap": "latest",
+    "axios": "^1.4.0",
+    "mongoose": "^7.0.0",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.2.0",
+    "p-limit": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
